@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    background-image: url(../midia/capa-002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+header {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 25px 0px;
+    height: 10px;
+}
+header h1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+main section {
+    text-align: center;
+}
+main section article {
+    background-color: rgba(0, 0, 0, 0.708);
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    border: solid 5px rgb(0, 0, 0);
+    max-width: 300px;
+    min-height: 350px;
+}
+main section article img {
+    width: 95%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 5px black;
+}
+main section article p {
+    padding: 10px;
+}
+main section article button {
+    font: bold 1em normal serif;
+    margin: 20px 0px;
+    padding: 5px;
+    width: 180px;
+}
+
+@media (max-width: 350px) {
+}
