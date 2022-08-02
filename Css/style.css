@@ -56,13 +56,13 @@ main form input {
     padding: 1px;
     width: 80%;
 }
-main form input[type="submit"] {
+main form input[type="button"] {
     font: bold 1.2em normal serif;
     border-radius: 10px;
     padding: 5px 40px;
     cursor: pointer;
 }
-main form input[type="submit"]:hover {
+main form input[type="button"]:hover {
     background-color: rgba(0, 0, 0, 0.284);
     color: white;
 }
