@@ -39,7 +39,7 @@ main {
     position: relative;
     height: 86vh;
 }
-main section {
+main form {
     position: absolute;
     top: 50%;
     left: 60%;
@@ -47,24 +47,27 @@ main section {
     text-align: center;
     padding: 10px;
 }
-main section input {
+main form input {
     font-size: 1.1em;
     text-align: center;
     display: block;
     margin: 20px auto;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 1px;
     width: 80%;
 }
-main section button {
+main form input[type="submit"] {
     font: bold 1.2em normal serif;
     border-radius: 10px;
     padding: 5px 40px;
     cursor: pointer;
 }
-main section button:hover {
+main form input[type="submit"]:hover {
     background-color: rgba(0, 0, 0, 0.284);
     color: white;
+}
+main form a {
+    text-decoration: none;
 }
 
 
@@ -84,24 +87,24 @@ footer a {
 }
 
 @media (max-width: 800px) {
-    main section {
+    main form {
         top: 50%;
         left: 50%;
         transform: translate(-10%, -50%);
     }
 }
 @media (max-width: 700px) {
-    main section {
+    main form {
         top: 50%;
         left: 50%;
         transform: translate(-15%, -50%);
     }
 }
 @media (max-width: 507px) {
-    main section {
+    main form {
         transform: translate(-50%, -50%);
     }
-    main section input {
+    main form input {
         width: 100%;
     }
 }
