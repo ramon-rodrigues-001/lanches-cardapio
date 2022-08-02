@@ -8,7 +8,7 @@
 body {
     font-size: 1.1em;
     color: white;
-    background-image: url(../midia/capa-001.jpeg);
+    background-image: red url(../midia/capa-001.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
