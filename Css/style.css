@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    color: white;
+    background: rgb(0, 0, 0);
+    background-image: url(../midia/capa-001.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: right;
+}
+header li {
+    border-bottom: solid 1px rgb(255, 255, 255);
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+header li#entrar {
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+main {
+    position: relative;
+    height: 86vh;
+}
+main form {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-0%, -50%);
+    text-align: center;
+    padding: 10px;
+}
+main form input {
+    font-size: 1.1em;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 1px;
+    width: 80%;
+}
+main form input[type="submit"] {
+    font: bold 1.2em normal serif;
+    border-radius: 10px;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+main form input[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.284);
+    color: white;
+}
+main form a {
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+}
+footer strong {
+    font-style: italic;
+}
+footer p {
+    display: inline-block;
+    margin: 0px 10px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    main form {
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%, -50%);
+    }
+}
+@media (max-width: 700px) {
+    main form {
+        top: 50%;
+        left: 50%;
+        transform: translate(-15%, -50%);
+    }
+}
+@media (max-width: 507px) {
+    main form {
+        transform: translate(-50%, -50%);
+    }
+    main form input {
+        width: 100%;
+    }
+}
+@media (max-width: 300px) {
+    body {
+        font-size: 1.1em;
+    }
+    header li {
+        padding: 1px;
+        margin: 5px;
+    }
+}
